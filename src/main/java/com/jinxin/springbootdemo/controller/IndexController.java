@@ -34,7 +34,7 @@ public class IndexController {
     @ResponseBody
     @RequestMapping("/mysqlTest")
     public String mysqlTest() {
-        String sql = "select * from user";
+        String sql = "select * from usertest";
         List<Map<String, Object>> list =  jdbcTemplate.queryForList(sql);
         System.out.println("123");
         return "";

@@ -66,6 +66,14 @@
         </dependency>
 
 
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.1.jre7</version>
+        </dependency>
+
+
+
 
 
     </dependencies>
